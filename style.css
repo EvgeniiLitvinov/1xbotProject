@@ -178,7 +178,10 @@ body {
 
 .products-icons {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
 }
 
 .products-item {
@@ -234,7 +237,9 @@ body {
 
 .intellectual-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 75px;
 }
 
 .card {
@@ -296,7 +301,9 @@ body {
 
 .container-chapter {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
     align-items: center;
 }
 
@@ -350,7 +357,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card-container {
@@ -387,8 +394,10 @@ body {
 
 .connect-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 110px;
 }
 
 .connect-information__left {
@@ -517,8 +526,10 @@ body {
 
 .examples {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 85px;
 }
 
 .example__item p {
