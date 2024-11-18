@@ -1,0 +1,39 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_80_4321)">
+<rect x="20" y="13" width="100" height="100" rx="50" fill="#786AF9" shape-rendering="crispEdges"/>
+<g clip-path="url(#clip0_80_4321)">
+<g clip-path="url(#clip1_80_4321)">
+<g clip-path="url(#clip2_80_4321)">
+<path d="M91.5 50V57.5" stroke="#F6F9FF" stroke-width="1.5"/>
+<path d="M85 48V59" stroke="#F6F9FF" stroke-width="1.5"/>
+<path d="M48.5 50.5V57.5" stroke="#F6F9FF" stroke-width="1.5"/>
+<path d="M55 48V59.5" stroke="#F6F9FF" stroke-width="1.5"/>
+<path d="M54.5 63.5C57.324 74.1444 63.7345 77.8047 70 77.5562M70 77.5562C78.1556 77.2327 86.0655 70.2864 85.5 63.5M70 77.5562V84" stroke="#F6F9FF" stroke-width="1.5"/>
+<path d="M58 84.5H82" stroke="#F6F9FF" stroke-width="1.5"/>
+<path d="M79 62V50C79 45.0294 74.9706 41 70 41C65.0294 41 61 45.0294 61 50V62C61 66.9706 65.0294 71 70 71C74.9706 71 79 66.9706 79 62Z" stroke="#F6F9FF" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_80_4321" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="7"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_80_4321"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_80_4321" result="shape"/>
+</filter>
+<clipPath id="clip0_80_4321">
+<rect width="45" height="46" fill="white" transform="translate(47.5 40)"/>
+</clipPath>
+<clipPath id="clip1_80_4321">
+<rect width="45" height="46" fill="white" transform="translate(47.5 40)"/>
+</clipPath>
+<clipPath id="clip2_80_4321">
+<rect width="45" height="46" fill="white" transform="translate(47.5 40)"/>
+</clipPath>
+</defs>
+</svg>
