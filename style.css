@@ -83,6 +83,12 @@ body {
     color: #000;
 }
 
+@media (max-width: 1050px) {
+    .header__nav {
+        display: none;
+    }
+}
+
 /* ---- MAIN ---- */
 
 .main {
@@ -94,7 +100,11 @@ body {
     padding-top: 105px;
 
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 180px;
+
+
+    justify-content: center;
     align-items: center;
 }
 
@@ -144,6 +154,37 @@ body {
     background-color: #fff;
     color: #000;
     border: 1px solid rgb(0, 0, 0);
+}
+
+@media (max-width: 1080px) {
+    
+
+    .main-container {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #item1 { order: 2; }
+    #item2 { order: 1; }  
+
+    .main-container {
+        gap: 100px;
+    }
+
+    .main-left h1 {
+        text-align: center;
+    }
+
+    .main-left p {
+        text-align: center;
+    }
+
+    .main-left button {
+        position: absolute; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
 }
 
 /* ---- PRODUCTS ----*/
@@ -334,6 +375,33 @@ body {
     background-color: rgb(120, 106, 249);
 }
 
+@media (max-width: 1000px) {
+
+    .business-chapter h3 {
+        text-align: center;
+    }
+
+    .container-chapter {
+        gap: 60px;
+    }
+
+    .connect-information__left h3 {
+        text-align: center;
+    }
+
+    .connect-information__left p {
+        text-align: center;
+    }
+
+    .connect-container {
+        gap: 10px;
+    }
+
+    /* .business-chapter p {
+        text-align: center;
+    } */
+}
+
 /* ---- РЕШЕНИЯ ДЛЯ ВАШИХ ЗАДАЧ ---- */
 
 .solutions {
@@ -411,7 +479,6 @@ body {
     font-size: 32px;
     font-weight: 600;
     line-height: 42.88px;
-    text-align: left;
 }
 
 .connect-information__left p {
@@ -419,7 +486,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 25.92px;
-    text-align: left;
 }
 
 .connect-information__right {
@@ -428,8 +494,10 @@ body {
     width: 432px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
+
 
 /* ---- PLAYER ---- */
 
