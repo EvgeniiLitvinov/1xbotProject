@@ -131,9 +131,20 @@ document.querySelectorAll('.scroll-link').forEach(link => {
 
 // BURGER
 
-document.querySelector('.burger').addEventListener('click', function() {
+const burgerMenu = document.querySelector('.burger')
+const nav = document.querySelector('.header__nav')
+const links = document.querySelectorAll('li')
+
+burgerMenu.addEventListener('click', function() {
     this.classList.toggle('active')
-    document.querySelector('.header__nav').classList.toggle('open')
+    nav.classList.toggle('open')
 } )
+
+links.forEach(function(link) {
+    link.addEventListener('click', function() {
+        burgerMenu.classList.remove('active')
+        nav.classList.remove('open')
+    }) 
+})
 
 

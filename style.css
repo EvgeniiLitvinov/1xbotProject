@@ -29,6 +29,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header ul {
@@ -74,9 +76,6 @@ body {
     color: #fff;
     border-radius: 21px;
     background-color: rgb(120, 106, 249);
-
-    margin-top: 30px;
-    margin-bottom: 30px;
     transition: 0.4s ease;
 }
 
@@ -136,7 +135,7 @@ body {
 .burger.active span { transform: scale(0); }
 
 .burger.active::before {
-    top: 50%;
+    top: 60%;
     transform: rotate(-45deg) translate(0, -50%);
 }
 
