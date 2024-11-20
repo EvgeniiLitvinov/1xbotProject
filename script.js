@@ -12,12 +12,12 @@ document.querySelectorAll('.audio-player').forEach(player => {
     playPauseBtn.addEventListener('click', () => {
         if (audio.paused) {
             audio.play();
-            playPauseBtn.src = '.img/Btn-pause.svg'; // Замена на иконку Pause
-            playPauseBtn.alt = 'Pause';
+            playPauseBtn.src = '/img/pause.svg'; // Замена на иконку Pause
+            playPauseBtn.alt = 'pause';
         } else {
             audio.pause();
-            playPauseBtn.src = './img/Button-Play.svg'; // Замена на иконку Play
-            playPauseBtn.alt = 'Play';
+            playPauseBtn.src = '/img/play.svg'; // Замена на иконку Play
+            playPauseBtn.alt = 'btn-play';
         }
     });
 
