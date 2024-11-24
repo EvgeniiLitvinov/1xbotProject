@@ -31,17 +31,20 @@
 
             <div class="modal" id="my-modal">
 
-                <form class="modal-form" action="https://formspree.io/f/movqljqj" method="POST">
+                <form class="modal-form" action="mail.php" method="POST">
 
                     <h3>Получить консультацию</h3>
     
                     <div class="inputs">
+
     
-                        <input class="form-input"  type="text" name="name" placeholder="Введите ваше имя" autocomplete="off">
+                        <input class="form-input"  type="text" name="name" id="name" placeholder="Введите ваше имя" autocomplete="off" required>
     
-                        <input class="form-input" type="tel" name="phone" placeholder="Введите ваш телефон" autocomplete="off">
+                        <input class="form-input" type="tel" name="phone" id="phone" placeholder="Введите ваш телефон" autocomplete="off" required>
     
-                        <input class="form-input" type="email" name="email" placeholder="Введите ваш E-mail" autocomplete="off">
+                        <input class="form-input" type="email" name="email" id="email" placeholder="Введите ваш E-mail" autocomplete="off" required>
+
+
     
                         <button class="form-button" type="submit">Заказать консультацию</button>
     
@@ -55,7 +58,7 @@
 
             <div class="main-left" id="item1">
                 <h1>Станьте партнёром <span>1XBOT</span></h1>
-                <p>Настало время переходить на автоматизацию! С решениями 1xBot ваш бизнес сократит расходы и повысит клиентский сервис, обеспечивая мощный рост в 2024 году.</p>
+                <p>Настало время переходить на автоматизацию! С решениями 1xBot ваш бизнес сократит расходы и повысит клиентский сервис, обеспечивая мощный рост в 2025 году.</p>
                 <button class="main-button">Заказать звонок</button>
             </div>
                 <img src="./img/main.jpg" alt="main-jpg">
@@ -148,7 +151,7 @@
 
     <section class="business-chapter">
         <div class="container container-chapter">
-            <img src="./img/busines-bot.jpeg" alt="">
+            <img src="./img/busines-bot.jpg" alt="">
             <div class="bot-description">
                 <h3>Что дадут вашему бизнесу 1XBOT-боты нового поколения?</h3>
 
@@ -287,7 +290,7 @@
             <div class="examples">
 
                 <div class="example__item">
-                    <p>Лидогенерация — холодный обзвон</p>
+                    <p>Автоматизация с 1xBot</p>
 
                     <div class="audio-player" data-player="1">
                         <button class="play-pause btn"><img src="./img/play.svg" alt="btn-play"></button>
@@ -298,13 +301,13 @@
                             <button class="volume-btn btn"><img src="./img/volume.svg" alt="volume"></button>
                             <input class="volume-slider" type="range" min="0" max="1" step="0.01" value="1">
                         </div>
-                        <audio src="https://twin24.ai/wp-content/uploads/2022/11/twin_bot_tk_kit_status-gruza_bot_i_zhivoj_operator.mp3" class="audio-element"></audio>
+                        <audio src="./audio/1.wav" class="audio-element"></audio>
                     </div>
 
                 </div>
 
                 <div class="example__item">
-                    <p>Лидогенерация — холодный обзвон</p>
+                    <p>Обработка заявки</p>
 
                     <div class="audio-player" data-player="1">
                         <button class="play-pause btn"><img src="./img/play.svg" alt="btn-play"></button>
@@ -315,13 +318,13 @@
                             <button class="volume-btn btn"><img src="./img/volume.svg" alt="volume"></button>
                             <input class="volume-slider" type="range" min="0" max="1" step="0.01" value="1">
                         </div>
-                        <audio src="https://twin24.ai/wp-content/uploads/2022/11/twin_bot_tk_kit_status-gruza_bot_i_zhivoj_operator.mp3" class="audio-element"></audio>
+                        <audio src="./audio/2.wav" class="audio-element"></audio>
                     </div>
 
                 </div>
 
                 <div class="example__item">
-                    <p>Лидогенерация — холодный обзвон</p>
+                    <p>Статус заказа</p>
 
                     <div class="audio-player" data-player="1">
                         <button class="play-pause btn"><img src="./img/play.svg" alt="btn-play"></button>
@@ -332,7 +335,7 @@
                             <button class="volume-btn btn"><img src="./img/volume.svg" alt="volume"></button>
                             <input class="volume-slider" type="range" min="0" max="1" step="0.01" value="1">
                         </div>
-                        <audio src="https://twin24.ai/wp-content/uploads/2022/11/twin_bot_tk_kit_status-gruza_bot_i_zhivoj_operator.mp3" class="audio-element"></audio>
+                        <audio src="./audio/3.wav" class="audio-element"></audio>
                     </div>
 
                 </div>
@@ -363,6 +366,14 @@
                 </div>
 
                 <div class="contact-list__item">
+                    <h5>Instagram:</h5>
+                    <a href="https://www.instagram.com/meetshop.kz/">
+                        <img src="./img/instagram.svg" alt="">
+                        @meetshop.kz
+                    </a>
+                </div>
+
+                <div class="contact-list__item">
 
                         <h5>Адрес:</h5>
                         <p>ул. Кабанбай батыра 216, оф 52</p>
@@ -374,7 +385,7 @@
             <div class="line"></div>
 
             <div class="contacts-links">
-                <p>© 2024 1XBOT. Все права защищены.</p>
+                <p>© 2025 1XBOT. Все права защищены.</p>
                 <div class="design-link">
                     <p>Дизайн и разработка:</p>
                     <a href="https://www.behance.net/litvinov">
@@ -390,5 +401,6 @@
     
 
     <script src="./script.js"></script>
+    
 </body>
 </html>
